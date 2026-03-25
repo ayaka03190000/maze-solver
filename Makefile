@@ -5,5 +5,4 @@ SRC=main.cpp
 all:$(TARGET)
 $(TARGET):$(SRC)
 	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC)
-clean: rm -f $(TARGET) solver.txt
-.PHONY: all clean
+.PHONY: all
