@@ -36,9 +36,9 @@ int main()
     cin >> H;
 
     int sy, sx;
-    cout << "スタート位置x座標（1-" << W - 2 << "）=";
+    cout << "スタート位置x（左から何番目）（1-" << W - 2 << "）=";
     cin >> sx;
-    cout << "スタート位置y座標（1-" << H - 2 << "）=";
+    cout << "スタート位置y（上から何番目）（1-" << H - 2 << "）=";
     cin >> sy;
 
     maze=vector<vector<char>>(H, vector<char>(W, '#'));
