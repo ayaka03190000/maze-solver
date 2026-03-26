@@ -49,9 +49,11 @@ make
 スタート位置を指定した後迷路が生成され、その後Enterを押すと解答を表示できます。
 
 ## ファイル構成
+```
 maze-solver/
 ├── main.cpp             # プログラム本体
 ├── Makefile             # ビルド設定
 ├── .gitignore           # Git管理から除外するファイルの設定
 ├── devcontainer.json    # Dev Container設定
 └── README.md            # レジュメ
+```
