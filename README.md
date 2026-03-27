@@ -62,3 +62,9 @@ maze-solver/
 ├── devcontainer.json    # Dev Container設定
 └── README.md            # レジュメ
 ```
+
+## 学んだこと
+- DFSとBFSの違いと使い分け
+- DFSを用いた迷路生成の仕組み
+- BFSを用いた最短経路探索の仕組み
+- 2次元グリッドをグラフとして扱う方法
